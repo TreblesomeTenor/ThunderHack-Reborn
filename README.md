@@ -3,7 +3,7 @@
 </p>
 
 > [!WARNING]
-> Work on ThunderHack Recode is completely stopped, 
+> Work on ThunderHack Recode has completely stopped, 
 > it will be replaced by this which will provide new updates to ThunderHack
 
 <div align="center">
