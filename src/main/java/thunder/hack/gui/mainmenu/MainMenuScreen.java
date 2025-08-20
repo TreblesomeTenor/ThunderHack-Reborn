@@ -85,7 +85,7 @@ public class MainMenuScreen extends Screen {
 
         boolean hoveredLogo = Render2DEngine.isHovered(mouseX, mouseY, (int) (halfOfWidth - 120), (int) (halfOfHeight - 130), 210, 50);
 
-        FontRenderers.thglitchBig.drawCenteredString(context.getMatrices(), "THUNDERHACK", (int) (halfOfWidth), (int) (halfOfHeight - 120), new Color(255, 255, 255, hoveredLogo ? 230 : 180).getRGB());
+        FontRenderers.thglitchBig.drawCenteredString(context.getMatrices(), "THUNDERHACK REBORN", (int) (halfOfWidth), (int) (halfOfHeight - 120), new Color(255, 255, 255, hoveredLogo ? 230 : 180).getRGB());
 
         boolean hovered = Render2DEngine.isHovered(mouseX, mouseY, halfOfWidth - 50, halfOfHeight + 70, 100, 10);
 
@@ -178,7 +178,7 @@ public class MainMenuScreen extends Screen {
             mc.setScreen(CreditsScreen.getInstance());
 
         if (Render2DEngine.isHovered(mouseX, mouseY, mc.getWindow().getScaledWidth() - 90, mc.getWindow().getScaledHeight() - 40, 40, 40))
-            Util.getOperatingSystem().open(URI.create("https://www.donationalerts.com/r/06ed/"));
+            Util.getOperatingSystem().open(URI.create("https://www.donationalerts.com/r/treblesometenor"));
 
         if (Render2DEngine.isHovered(mouseX, mouseY, (int) (halfOfWidth - 157), (int) (halfOfHeight - 140), 300, 70))
             Util.getOperatingSystem().open(URI.create("https://thunderhack-site.vercel.app/"));

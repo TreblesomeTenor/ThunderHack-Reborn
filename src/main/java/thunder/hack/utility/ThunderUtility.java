@@ -67,7 +67,7 @@ public final class ThunderUtility {
 
         try {
             for (int page = 1; page <= 3; page++) {
-                URL url = new URL("https://api.github.com/repos/Pan4ur/ThunderHack-Recode/stargazers?per_page=100&page=" + page);
+                URL url = new URL("" + page);
                 BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
                 StringBuilder response = new StringBuilder();
                 String inputLine;
@@ -129,10 +129,10 @@ public final class ThunderUtility {
 
     public static void parseCommits() {
         try {
-            URL url = new URL("https://api.github.com/repos/Pan4ur/ThunderHack-Recode/commits?per_page=50");
+            URL url = new URL("https://api.github.com/repos/TreblesomeTenor/ThunderHack-Reborn/commits?per_page=7");
             BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream(), StandardCharsets.UTF_8));
 
-            changeLog.add("Changelog [Recode; Date: " + ThunderHack.BUILD_DATE + "; GitHash:" + ThunderHack.GITHUB_HASH + "]");
+            changeLog.add("Changelog [Reborn; Date: " + ThunderHack.BUILD_DATE + "; GitHash:" + ThunderHack.GITHUB_HASH + "]");
             changeLog.add("\n");
 
             String inputLine;
