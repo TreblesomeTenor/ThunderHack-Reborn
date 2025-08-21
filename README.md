@@ -13,7 +13,7 @@
 
 <div align="center">
 
-[![Discord Mine](https://img.shields.io/discord/1140266441082404924?label=discord&logo=discord&logoColor=white)](https://discord.gg/WFfzhF5RJj)
+[![Discord Mine](https://img.shields.io/discord/1407619075211001898?label=discord&logo=discord&logoColor=white)](https://discord.gg/WFfzhF5RJj)
 
 </div>
 
